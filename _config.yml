@@ -1,3 +1,4 @@
+baseurl: ""
 
 exclude:
   - package.json
