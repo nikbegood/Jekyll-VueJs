@@ -1,32 +1,18 @@
 {
-  "version": "0.0.1",
-  "description": "A bare-bones template for building static sites that leverage a modern javascript framework for dynamic functionality. Built with [NPM](https://www.npmjs.com), [Vue](https://vuejs.org), and [Jekyll](https://jekyllrb.com).",
-  "main": "main.js",
-  "scripts": {
-    "packit": "webpack --watch",
-    "buildit": "bundle exec jekyll build --watch --incremental",
-    "jekyllfy": "npm run packit & npm run buildit & npm run serve",
-    "serve": "browser-sync start --config browser-sync.js"
-  },
-  "keywords": [
-    "jekyll",
-    "Vue"
-  ],
-  
+  "name": "my-blog2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
-    "babel-cli": "^6.23.0",
-    "babel-core": "^6.23.1",
-    "babel-loader": "^6.4.0",
-    "babel-preset-es2015": "^6.22.0",
-    "browser-sync": "^2.18.8",
-    "extract-text-webpack-plugin": "^2.1.0",
-    "json-loader": "^0.5.4",
-    "marked": "^0.3.6",
-    "vue": "^2.2.1",
-    "vue-carousel-3d": "^0.1.20",
-    "vue-loader": "^11.1.4",
-    "vue-template-compiler": "^2.2.2",
-    "webfontloader": "^1.6.27",
-    "webpack": "^2.2.1"
-  }
+    "browser-sync": "^2.18.12"
+  },
+  "devDependencies": {
+    "gulp-css": "^0.1.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
