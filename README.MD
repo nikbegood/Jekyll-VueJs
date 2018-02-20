@@ -4,6 +4,7 @@ Jekyll/VueJs Project
 
 * Clone the Repo
 * `npm install`
-* `bundle install`
-* `npm run jekyllfy`
+* `npm install gulp`
+* `gulp serve`
 
+![Описание картинки с котиком](http://placekitten.com/g/100/20.jpg)
